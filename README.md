@@ -3,4 +3,4 @@ This is my first solo game! I created it in Unity using C#. I'm very proud of th
 ## Play it Here!
 https://simmer.io/@CoasterCrook/jumpy-jump
 
-![alt text](file:///C:/Users/Garrett%20Crook/Downloads/lollllll.jpg)
+![lollllll](https://user-images.githubusercontent.com/102568924/218208399-e23e4f90-4206-4b49-9691-a452f16ebd57.jpg)
