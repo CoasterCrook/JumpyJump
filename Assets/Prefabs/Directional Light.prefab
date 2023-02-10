@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4452592012481763498
+--- !u!1 &1280007212622940249
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4452592012481763500}
-  - component: {fileID: 4452592012481763499}
+  - component: {fileID: 1280007212622940251}
+  - component: {fileID: 1280007212622940250}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -17,54 +17,43 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4452592012481763500
+--- !u!4 &1280007212622940251
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 1280007212622940249}
   m_LocalRotation: {x: 0.28731853, y: 0.30416447, z: 0.21770601, w: 0.88178015}
   m_LocalPosition: {x: 0, y: 6.58, z: 0}
-=======
-  m_GameObject: {fileID: 4452592012481763498}
-  m_LocalRotation: {x: 0.11053897, y: -0.004110178, z: 0.063210376, w: 0.99185115}
-  m_LocalPosition: {x: 3.4, y: 8.9, z: -5.9}
->>>>>>> d93a0e854a6e9cef8e89ef0f14a143d72258ca01
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 12.697, y: 0.342, z: 7.331}
---- !u!108 &4452592012481763499
+  m_LocalEulerAnglesHint: {x: 21.979, y: 45.509, z: 37.05}
+--- !u!108 &1280007212622940250
 Light:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4452592012481763498}
+  m_GameObject: {fileID: 1280007212622940249}
   m_Enabled: 1
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-<<<<<<< HEAD
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 1.15
-=======
-  m_Color: {r: 1, g: 0.98384714, b: 0.8537736, a: 1}
-  m_Intensity: 1
->>>>>>> d93a0e854a6e9cef8e89ef0f14a143d72258ca01
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.476
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
@@ -94,7 +83,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1

@@ -37,11 +37,7 @@ RenderSettings:
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-<<<<<<< HEAD
   m_Sun: {fileID: 705507994}
-=======
-  m_Sun: {fileID: 0}
->>>>>>> d93a0e854a6e9cef8e89ef0f14a143d72258ca01
   m_IndirectSpecularColor: {r: 0.790534, g: 0.81769764, b: 0.8685931, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
@@ -1652,6 +1648,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 687349253}
   m_CullTransparentMesh: 1
+--- !u!108 &705507994 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 1280007212622940250, guid: eafddee27f9892047bd9f4511cc445bf, type: 3}
+  m_PrefabInstance: {fileID: 1280007212187073216}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &725571823
 GameObject:
   m_ObjectHideFlags: 0
@@ -4046,7 +4047,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2125475360}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
 --- !u!1001 &1280007212187073216
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4104,8 +4104,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eafddee27f9892047bd9f4511cc445bf, type: 3}
-=======
->>>>>>> d93a0e854a6e9cef8e89ef0f14a143d72258ca01
 --- !u!1001 &1353324141558099048
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4304,60 +4302,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29b016fd702093d4d8bb365fd20af37d, type: 3}
---- !u!1001 &4452592011765794624
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4452592012481763498, guid: eafddee27f9892047bd9f4511cc445bf, type: 3}
-      propertyPath: m_Name
-      value: Directional Light
-      objectReference: {fileID: 0}
-    - target: {fileID: 4452592012481763500, guid: eafddee27f9892047bd9f4511cc445bf, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4452592012481763500, guid: eafddee27f9892047bd9f4511cc445bf, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4452592012481763500, guid: eafddee27f9892047bd9f4511cc445bf, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 8.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 4452592012481763500, guid: eafddee27f9892047bd9f4511cc445bf, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -5.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 4452592012481763500, guid: eafddee27f9892047bd9f4511cc445bf, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.99185115
-      objectReference: {fileID: 0}
-    - target: {fileID: 4452592012481763500, guid: eafddee27f9892047bd9f4511cc445bf, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.11053897
-      objectReference: {fileID: 0}
-    - target: {fileID: 4452592012481763500, guid: eafddee27f9892047bd9f4511cc445bf, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.004110178
-      objectReference: {fileID: 0}
-    - target: {fileID: 4452592012481763500, guid: eafddee27f9892047bd9f4511cc445bf, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.063210376
-      objectReference: {fileID: 0}
-    - target: {fileID: 4452592012481763500, guid: eafddee27f9892047bd9f4511cc445bf, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 12.697
-      objectReference: {fileID: 0}
-    - target: {fileID: 4452592012481763500, guid: eafddee27f9892047bd9f4511cc445bf, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.342
-      objectReference: {fileID: 0}
-    - target: {fileID: 4452592012481763500, guid: eafddee27f9892047bd9f4511cc445bf, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 7.331
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: eafddee27f9892047bd9f4511cc445bf, type: 3}
