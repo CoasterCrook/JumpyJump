@@ -17,9 +17,11 @@ public class CountdownTimer : MonoBehaviour
     LevelManager levelManager;
     ScoreKeeper scoreKeeper;
     AudioManager audioManager;
+    PlayfabManager playfabManager;
 
     private void Awake() 
     {
+        playfabManager = FindObjectOfType<PlayfabManager>();
         levelManager = FindObjectOfType<LevelManager>();
         scoreKeeper = FindObjectOfType<ScoreKeeper>();
         audioManager = FindObjectOfType<AudioManager>();
@@ -69,6 +71,7 @@ public class CountdownTimer : MonoBehaviour
             slider.gameObject.SetActive(false);
             timerText.text = null;
             scoreKeeper.finalScoreText.text = $"Final Score: {scoreKeeper.GetFinalScore()}";
+            playfabManager.SendLeaderboard(scoreKeeper.GetFinalScore());
             scoreKeeper.finalScoreCanvas.SetActive(true);
         }
     }
